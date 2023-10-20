@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+    printf("Hello 明日は何するの？\n");
+/*一日中ごろごろするよ*/
+    return 0;
+}

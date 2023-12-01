@@ -63,7 +63,7 @@ printf("終了\n");
 exit(1);
 }
 
-printf("登録が完了");
+printf("入力されたパスワードは安全");
 
 return 0;
 }

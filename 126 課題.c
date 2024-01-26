@@ -21,7 +21,7 @@ void main()
 	printf("* 数字の範囲は0から100までです*\n");
 	printf("**************************************\n");
 
-	for (i = 1; i <= 10; i++)
+	for (i = 1; i <= 300; i++)
 	{
 		printf("\n数字:");
 		fflush(stdout);
@@ -33,6 +33,5 @@ void main()
 			printf("小さすぎます");
 	}
 
-	if (i <= 10) printf("\n\n%d回目で当たり\n", i);
-	else         printf("\n\n\aアウト!!  正解は%d でした\n", n1);
+	printf("\n\n%d回目で当たり\n", i);
 }
